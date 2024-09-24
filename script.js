@@ -1,4 +1,4 @@
-let submitBtn = document.getElementById("submit-btn");
+let submitBtn = document.getElementById("search-btn");
 
 let generateGif = () => {
   let loader = document.querySelector(".loader");
@@ -9,7 +9,7 @@ let generateGif = () => {
 
   let q = document.getElementById("search-box").value;
 
-  let gifCount = 10;
+  let gifCount = 30;
 
   let url = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${q}&limit=${gifCount}&offset=0&rating=g&lang=en`;
 
