@@ -1,15 +1,9 @@
-// // API Key
-// &bundle=messaging_non_clips
-// gif?cid=ef9f9ba15yy39n09i41qm9jx2885lwkqhyiqe7ly4btofg63&ep=v1_gifs_search&rid=giphy.gif&ct=g
-
-// let apiKey="";
-
 let submitBtn = document.getElementById("submit-btn");
 
 let generateGif = () => {
   let loader = document.querySelector(".loader");
 
-  loader.style.display = "none";
+  loader.style.display = "block";
 
   document.querySelector(".wrapper").style.display = "none";
 
